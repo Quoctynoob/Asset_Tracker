@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './Header';
 import Welcome from './Welcome';
 
 const MainWelcome: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 text-white">
+    <div>
+      <Header />
       <Welcome />
     </div>
   );
