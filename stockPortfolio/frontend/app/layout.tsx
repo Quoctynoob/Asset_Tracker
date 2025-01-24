@@ -1,3 +1,5 @@
+import "./styles/globals.css"
+
 export const metadata = {
   title: 'Stock Portfolio',
   description: 'All about stock',

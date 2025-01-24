@@ -14,6 +14,7 @@ export default {
         frontPage: "#2b7a78",
         lightGrey: "#f2f2f2",
         darkGreen: "#182626",
+        darkerGreen: "#182628",
       },
     },
   },
