@@ -15,6 +15,8 @@ export default {
         lightGrey: "#f2f2f2",
         darkGreen: "#182626",
         darkerGreen: "#182628",
+        lightFont: "#def2f1",
+        lightGreen: "#1f3232",
       },
     },
   },
