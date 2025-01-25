@@ -3,6 +3,8 @@ import MainWelcome from './welcome/mainWelcome';
 
 export default function HomePage() {
   return (
-    <MainWelcome />
+    <>
+      <MainWelcome />
+    </>
   );
 }

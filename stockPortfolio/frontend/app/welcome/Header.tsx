@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           <button className="bg-lightGrey font-bold text-darkerGreen m-2 rounded-full px-6 py-3 hover:bg-gradient-to-t from-neutral-300 to-slate-300 border border-darkerGreen">
             Log in
           </button>
-          <button className="bg-darkGreen text-white ml-2 mr-0 my-2 rounded-full px-5 py- font-bold hover:bg-gradient-to-t from-lightGreen via-darkGreen to-darkerGreen">
+          <button className="bg-darkGreen text-white ml-2 mr-0 my-2 rounded-full px-5 font-bold hover:bg-gradient-to-t from-lightGreen via-darkGreen to-darkerGreen">
             Open an account
           </button>
         </div>
