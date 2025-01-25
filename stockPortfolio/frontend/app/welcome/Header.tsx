@@ -19,9 +19,9 @@ const Header: React.FC = () => {
             <span className="block w-8 h-0.5 bg-lightFont mb-3"></span>
             <span className="block w-6 h-0.5 bg-lightFont"></span>
           </button>
-
+          
           {/* Dropdown Menu */}
-          {menuOpen && (
+          {menuOpen && ( 
             <div className="absolute left-0 mt-2 bg-white rounded shadow-md z-10">
               <ul className="flex flex-col text-black">
                 <li className="px-4 py-2 hover:bg-gray-100">
