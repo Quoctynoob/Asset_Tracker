@@ -5,10 +5,10 @@ import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import * as api from '../../../lib/api';
 import { useAuth } from '../../../contexts/AuthContext';
-import StockChart from '../../../components/stock/StockChart';
-import StockInfo from '../../../components/stock/StockInfo';
+import StockChart from '@/app/components/stock/StockChart';
+import StockInfo from '@/app/components/stock/StockInfo';
 import { StockNews } from '../../../components/dashboard/StockNews';
-import AddToPortfolioModal from '../../../components/stock/AddToPortfolioModal';
+import AddToPortfolioModal from '@/app/components/stock/AddToPortfolioModal';
 
 interface Stock {
   symbol: string;

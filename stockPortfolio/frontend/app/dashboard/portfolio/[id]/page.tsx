@@ -5,9 +5,9 @@ import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import * as api from '../../../lib/api';
 import { useAuth } from '../../../contexts/AuthContext';
-import AddStockModal from '../../../components/portfolio/AddStockModal';
-import StockHoldingItem from '../../../components/portfolio/StockHoldingItem';
-import EditPortfolioModal from '../../../components/portfolio/EditPortfolioModal';
+import AddStockModal from '@/app/components/portfolio/AddStockModal';
+import StockHoldingItem from '@/app/components/portfolio/StockHoldingItem';';
+import EditPortfolioModal from '@/app/components/portfolio/EditPortfolioModal';';
 
 interface StockHolding {
   id: number;
